@@ -10,7 +10,7 @@ RUN pip install ipython
 
 WORKDIR /app
 
-RUN git clone https://github.com/decide-update-4-1/decide-update-4.1.git .
+RUN https://github.com/joslopser/EGC2324-turno42-joslopser1.git
 RUN pip install -r requirements.txt
 
 WORKDIR /app/decide
